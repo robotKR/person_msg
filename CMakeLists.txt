@@ -11,6 +11,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Person.msg"
+  "srv/Query.srv"   #追加
+
 )
 # uncomment the following section in order to fill in
 # further dependencies manually.
